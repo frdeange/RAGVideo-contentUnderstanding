@@ -1,6 +1,5 @@
 # Azure Functions Core
 azure-functions
-azure-functions-worker
 azure-functions-durable
 
 # Azure SDK Core
