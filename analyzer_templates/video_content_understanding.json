@@ -1,0 +1,40 @@
+{
+  "BaseAnalyzerId": "prebuilt-videoAnalyzer",
+  "config": {
+    "enableFaceIdentification": true,
+    "generateSegments": true,
+    "outputFormat": "both",
+    "segmentationStrategy": "semantic",
+    "maxSegmentDuration": 300,
+    "enableKeyframeExtraction": true,
+    "enableTranscription": true,
+    "enableSceneDescription": true
+  },
+  "fields": [
+    {
+      "name": "video_title",
+      "type": "string",
+      "description": "Extract or generate a meaningful title for the video content"
+    },
+    {
+      "name": "video_summary",
+      "type": "string", 
+      "description": "Generate a comprehensive summary of the entire video content"
+    },
+    {
+      "name": "key_topics",
+      "type": "array",
+      "description": "Identify and extract the main topics discussed in the video"
+    },
+    {
+      "name": "speakers",
+      "type": "array",
+      "description": "Identify speakers or presenters in the video if applicable"
+    },
+    {
+      "name": "segments",
+      "type": "array",
+      "description": "Break down video into meaningful segments with timestamps and descriptions"
+    }
+  ]
+}

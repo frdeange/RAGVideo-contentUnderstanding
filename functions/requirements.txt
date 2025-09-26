@@ -1,0 +1,32 @@
+# Azure Functions Core
+azure-functions
+azure-functions-worker
+azure-functions-durable
+
+# Azure SDK Core
+azure-identity
+azure-core
+
+# Azure Services
+azure-storage-blob
+azure-search-documents
+azure-ai-textanalytics
+
+# OpenAI
+openai
+
+# HTTP Client
+aiohttp
+requests
+
+# Utilities
+python-dotenv
+
+# Data Processing
+numpy
+
+# JSON/Data handling
+typing-extensions
+
+# Logging
+structlog
